@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     {{ name }}
+
+    <h1 v-if="verifyTrue">True</h1>
+    <h1 v-if="!verifyFalse">False</h1>
   </div>
 </template>
 
@@ -9,7 +12,9 @@ export default {
   name: 'Skills',
   data() {
     return {
-      name: 'Antonio Apps'
+      name: 'Antonio Apps',
+      verifyTrue: true,
+      verifyFalse: false
     }
   }
 }
