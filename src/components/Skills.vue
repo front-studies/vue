@@ -4,6 +4,9 @@
 
     <h1 v-if="verifyTrue">True</h1>
     <h1 v-if="!verifyFalse">False</h1>
+
+    <div v-if="verifyFalse">Now you see me</div>
+    <div v-else>Now you don't</div>
   </div>
 </template>
 
