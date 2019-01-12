@@ -7,6 +7,8 @@
 
     <div v-if="verifyFalse">Now you see me</div>
     <div v-else>Now you don't</div>
+
+    <h2 v-show="verifyTrue">Hello v-show!</h2>
   </div>
 </template>
 
